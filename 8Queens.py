@@ -2,7 +2,7 @@ import random
 import numpy as np
 from copy import deepcopy
 import requests
-# url='https://lf8q0kx152.execute-api.us-east-2.amazonaws.com/default/computeFitnessScore'
+
 
 
 
@@ -580,8 +580,9 @@ def main():
 
     print(params)
 
-    #x=requests.post(url,json={"qconfig":params,"userID":843858,"githubLink":"<<git hub link>>"})
-    #print(x.text)
+    # url='https://lf8q0kx152.execute-api.us-east-2.amazonaws.com/default/computeFitnessScore'
+    # x=requests.post(url,json={"qconfig":params,"userID":843858,"githubLink":"https://github.com/JaFallonWork/8QueenChallenge"})
+    # print(x.text)
 
 
 
